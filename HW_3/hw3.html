@@ -9,10 +9,10 @@
     <h1>In this project I learned how to display images in different projections.</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>In order to change the projection model used in each map display, I first clicked on the icon in the bottom right corner of the screen. From there, QGIS allows any projection model to be search and selected. Installing the Indicatrix Mapper plugin allowed me to show the Tissot circles on each map. These circles are helpful in identifying which aspect of the map is distorted.</p>
+    <p>In order to change the projection model used in each map display, I first clicked on the icon in the bottom right corner of the screen. From there, QGIS allows any projection model to be searched and selected. Installing the Indicatrix Mapper plugin allowed me to show the Tissot circles on each map. These circles are helpful in identifying which aspect of the map is distorted.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some Observations: This projection appears to be cylindrical, mostly preserving area. The size of the Tissot circles stays relatively consistant, except at the poles. The northern- and southern-most landmasses are the least accurate, as their Tissot circles are the most distorted. Direction is not preserved at all in this projection.  </h3>
+    <h3>Some Observations: This projection appears to be cylindrical, mostly preserving area. The size of the Tissot circles stays relatively consistant, except at the poles. The northern- and southern-most landmasses are the least accurate, as their Tissot circles are the most distorted in area, shape, and distance. Direction is not preserved at all in this projection.  </h3>
     <a href="./maps/4326_f.png">
     <img src="./maps/4326_f.png" alt="WGS84" width='500px'>
     </a>
@@ -22,7 +22,7 @@
     <img src="./maps/54043_c.png" alt="Aitoff" width='500px'>
     </a>
     <h2>Pseudo-Mercator Projection</h2>
-    <h3>Some Observations: This projection is cylindrical, as seen by its rectangular shape and distortion of size. The size distortion is most obvious at the south pole, where Antarctica expands all the way to the edge of the map, making it appear to take up a much larger proportion of the globe than it does in reality. I think distance is accurately preserved, at least at near the equator. The distance between each Tissot circle is roughly equal.   </h3>
+    <h3>Some Observations: This cylindrical projection distorts size and distance, especially near the poles. Antarctica, for example, expands all the way to the edge of the map, making it appear to take up a much larger proportion of the globe than it does in reality. I think distance is accurately preserved, at least at near the equator, as it shape. </h3>
     <a href="./maps/3857_c.png">
     <img src="./maps/3857_c.png" alt="3857" width='500px'>
     </a>
