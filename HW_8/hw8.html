@@ -17,7 +17,10 @@
 <h3>Edited Datasets</h3>
     <a href="./data/gpp_clean.csv"> Cleaned Power Plant Data (CSV) </a>
 <h2>Map<h2>
-    <h3>Using data from the US Energy Information Administration, the amount of petroleum energy-related carbon emissions is displayed by state (in million metric tons). I am interested in the various economic and political factors that contribute to carbon dioxide emissions across the US. In the future, I'd like to cross-reference this data with a map of: 1) number of oil-burning power plants in each state, 2) states that have adopted California's Clean Cars Standards. This choropleth is a good starting point for analyzing how population, policy, and other factors contribute to emissions.</h3>
+<a href="data/hw8pngfinal.png">
+    <img src="data/hw8pngfinal.png" alt="map" width='500px'>
+    </a>
+    <h3>Using data from the World Resources Institute, I endeavored to answer the question, "How many Guilford County schools are located within 10,000 feet of a power plant?" To transform US County data into something useful for this map, I used the dissolve function twice. First to dissolve all counties except those in NC, then to dissolve all NC counties except for Guilford. I did this in two different steps so that NC could be represented as a different color on the inset. Next, I used the buffer function to create a buffer of 10,000 feet around each power plant point. Then, school points that fall within these buffers help to answer my initial question. </h3>
     <p></p>
 </body>
 </html>
